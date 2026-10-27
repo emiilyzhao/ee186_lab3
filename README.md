@@ -17,7 +17,7 @@ fixed in hardware the SUB can be chosen using the register map in the manual.
 
 **CTRL1 register addresses**
 
-Address: 	0100000 (0x20) <- only 7 bits b/c top bit is auto-increment flag
+Address: 	0100000 (0x20) <- only 7 bits b/c top bit is auto-increment flag '''
 Written to: 	01010111 (0x57)
 
 CTRL_REG1_A is at address 0x20. 
