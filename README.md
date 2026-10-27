@@ -1,4 +1,4 @@
-# ee186_lab2
+# ee186_lab3
 
 ## Getting Ready
 
@@ -15,7 +15,7 @@ which picks which chip on the bus you're talking to. The I2C address is the
 first byte sent after START, whereas SUB is the second one. The address is
 fixed in hardware the SUB can be chosen using the register map in the manual.
 
-**CTRL1 register address**
+**CTRL1 register addresses
 
 Address: 	0100001 (0x20) <- only 7 bits b/c top bit is auto-increment flag
 Written to: 	01010111 (0x57)
@@ -29,5 +29,3 @@ OUT_X_L_A: 	0101000 (0x28)
 OUT_X_H_A:      0101001 (0x29)
 OUT_Y_L_A:      0101010 (0x2A)
 OUT_Y_H_A:      0101011 (0x2B)
-
-## Writing the Driver 
